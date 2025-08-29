@@ -5,14 +5,14 @@
 </p>
 
 <p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=tcurihual.AyunPet&left_color=black&right_color=blue&style=for-the-badge" alt="Visitas" />
-  <img src="https://img.shields.io/github/stars/tcurihual/AyunPet?style=for-the-badge&logo=github"
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=tcurihual.AyunPet&left_color=black&right_color=blue&style=for-the-badge&left_text=Visitas" alt="Visitas" />
+  <img src="https://img.shields.io/github/stars/tcurihual/AyunPet?style=for-the-badge&logo=github&label=Estrellas"
        alt="GitHub Stars" />
-  <img src="https://img.shields.io/github/forks/tcurihual/AyunPet?style=for-the-badge&logo=github"
+  <img src="https://img.shields.io/github/forks/tcurihual/AyunPet?style=for-the-badge&logo=github&label=Forks"
        alt="GitHub Forks" />
-  <img src="https://img.shields.io/github/issues/tcurihual/AyunPet?style=for-the-badge"
+  <img src="https://img.shields.io/github/issues/tcurihual/AyunPet?style=for-the-badge&label=Issues"
        alt="GitHub Issues" />
-  <img src="https://img.shields.io/github/last-commit/tcurihual/AyunPet?style=for-the-badge"
+  <img src="https://img.shields.io/github/last-commit/tcurihual/AyunPet?style=for-the-badge&label=Último_Commit"
        alt="Último commit" />
   <img src="https://img.shields.io/badge/Licencia-MIT-green?style=for-the-badge"
        alt="Licencia" />
@@ -32,6 +32,19 @@
 
 ---
 
+## 📋 Tabla de Contenidos
+
+- [📝 Descripción del Proyecto](#-descripción-del-proyecto)
+- [✨ Características Principales](#-características-principales)
+- [🛠️ Tecnologías Utilizadas](#️-tecnologías-utilizadas)
+- [🚀 Cómo Empezar (Guía Rápida para Windows)](#-cómo-empezar-guía-rápida-para-windows)
+- [🤝 Cómo Contribuir](#-cómo-contribuir)
+- [🆘 Soporte](#-soporte)
+- [📜 Licencia](#-licencia)
+- [👤 Autores](#-autores)
+
+---
+
 ## 📝 Descripción del Proyecto
 
 **AyudPet** es una solución integral que incluye una plataforma web y una aplicación móvil, desarrollada para la asignatura `Taller de Integración II y IV` en la `Universidad Católica de Temuco`.
@@ -42,21 +55,21 @@ El proyecto busca optimizar el proceso de adopción de mascotas, conectando de f
 
 ## ✨ Características Principales
 
-* **🐶 Gestión de Publicaciones (Para Fundaciones)**
-    * Publica y administra perfiles de mascotas con información detallada (fotos, historia, salud).
-    * Actualiza en tiempo real el estado de la adopción ("disponible", "en proceso", "adoptado").
+### 🏢 Para Fundaciones y Rescatistas
+**Herramientas centralizadas para una gestión eficiente.**
+- ✅ **Publicación Sencilla:** Crea y administra perfiles de mascotas con toda la información necesaria.
+- ✅ **Gestión de Estado en Tiempo Real:** Actualiza si una mascota está "disponible", "en proceso" o ya fue "adoptada".
 
-* **🔍 Búsqueda y Adopción (Para Adoptantes)**
-    * Busca y filtra mascotas por especie, tamaño, edad y más, tanto en la web como en la app.
-    * Postula a una adopción a través de un formulario simple y seguro.
-    * Guarda perfiles de mascotas en una lista de favoritos.
+### 🔍 Para Futuros Adoptantes
+**Encuentra a tu compañero ideal de forma segura e informada.**
+- ✅ **Búsqueda y Filtros Avanzados:** Filtra por especie, tamaño, edad y más para encontrar la mascota perfecta.
+- ✅ **Postulación Segura:** Envía solicitudes de adopción a través de un formulario estandarizado.
+- ✅ **Lista de Favoritos:** Guarda los perfiles que te interesan para no perderles la pista.
 
-* **💬 Interacción y Comunidad**
-    * Resuelve dudas a través de un sistema de comentarios en cada publicación.
-    * Accede a perfiles transparentes de las organizaciones para generar confianza.
-
-* **🛡️ Administración y Moderación**
-    * Panel de control para que los administradores gestionen usuarios y contenido reportado, asegurando un entorno seguro.
+### 🛡️ Para Administradores
+**Un entorno seguro y bien moderado para todos.**
+- ✅ **Panel de Control:** Gestiona usuarios y contenido reportado.
+- ✅ **Moderación de Contenido:** Asegura que todas las publicaciones cumplan con las normas de la comunidad.
 
 ---
 
@@ -119,6 +132,24 @@ Asegúrate de tener instalado el siguiente software:
     ````
 
 La terminal te mostrará la URL donde la aplicación estará corriendo.
+---
+
+## 🤝 Cómo Contribuir
+
+¡Las contribuciones son bienvenidas! Este es un proyecto universitario y colaborativo. Si quieres ayudar, por favor sigue estos pasos:
+1.  Busca un `issue` abierto en la pestaña [Issues](https://github.com/tcurihual/AyunPet/issues) o propón una nueva mejora.
+2.  Para cambios importantes, por favor abre un `issue` primero para discutir lo que te gustaría cambiar.
+3.  Asegúrate de seguir las guías de estilo y los estándares del proyecto.
+
+---
+
+## 🆘 Soporte
+
+Si encuentras un problema o tienes una sugerencia, por favor, utiliza los canales oficiales del repositorio:
+
+- **🐛 Reportar un Bug:** Abre un nuevo `Issue` [aquí](https://github.com/tcurihual/AyunPet/issues/new). Por favor, sé lo más detallado posible.
+- **💡 Sugerir una Mejora:** Inicia una `Discussion` [aquí](https://github.com/tcurihual/AyunPet/discussions) para proponer nuevas ideas o funcionalidades.
+
 ---
 
 ## 📜 Licencia

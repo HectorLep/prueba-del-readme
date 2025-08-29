@@ -5,14 +5,14 @@
 </p>
 
 <p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=tcurihual.AyunPet&left_color=black&right_color=blue&style=for-the-badge&left_text=Visitas" alt="Visitas" />
-  <img src="https://img.shields.io/github/stars/tcurihual/AyunPet?style=for-the-badge&logo=github&label=Estrellas"
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=tcurihual.AyunPet&left_color=black&right_color=blue&style=for-the-badge" alt="Visitas" />
+  <img src="https://img.shields.io/github/stars/tcurihual/AyunPet?style=for-the-badge&logo=github"
        alt="GitHub Stars" />
-  <img src="https://img.shields.io/github/forks/tcurihual/AyunPet?style=for-the-badge&logo=github&label=Forks"
+  <img src="https://img.shields.io/github/forks/tcurihual/AyunPet?style=for-the-badge&logo=github"
        alt="GitHub Forks" />
-  <img src="https://img.shields.io/github/issues/tcurihual/AyunPet?style=for-the-badge&label=Issues"
+  <img src="https://img.shields.io/github/issues/tcurihual/AyunPet?style=for-the-badge"
        alt="GitHub Issues" />
-  <img src="https://img.shields.io/github/last-commit/tcurihual/AyunPet?style=for-the-badge&label=Último_Commit"
+  <img src="https://img.shields.io/github/last-commit/tcurihual/AyunPet?style=for-the-badge"
        alt="Último commit" />
   <img src="https://img.shields.io/badge/Licencia-MIT-green?style=for-the-badge"
        alt="Licencia" />

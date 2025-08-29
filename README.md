@@ -19,7 +19,7 @@ El proyecto busca optimizar el proceso de adopción de mascotas, conectando de f
 
 ---
 
-## ✨ Características Principales (Features)
+## ✨ Características Principales
 
 * **🐶 Gestión de Publicaciones (Para Fundaciones)**
     * Publica y administra perfiles de mascotas con información detallada (fotos, historia, salud).
@@ -39,7 +39,7 @@ El proyecto busca optimizar el proceso de adopción de mascotas, conectando de f
 
 ---
 
-## 🛠️ Tecnologías Utilizadas (Tech Stack)
+## 🛠️ Tecnologías Utilizadas
 
 * **Backend:** `Node.js` + `Express` + `TypeScript`
 * **Base de Datos:** `PostgreSQL` + `Prisma` (ORM)
@@ -48,7 +48,7 @@ El proyecto busca optimizar el proceso de adopción de mascotas, conectando de f
 
 ---
 
-## 🚀 Cómo Empezar (Getting Started)
+## 🚀 Cómo Empezar
 
 Este proyecto utiliza una estructura de monorepo. Sigue estos pasos para ejecutarlo localmente.
 

@@ -6,7 +6,7 @@
 
 # 🐾 AyudPet 🐾
 
-[![Banner o Screenshot Principal de la App](https://via.placeholder.com/800x400.png?text=Plataforma+AyudPet+Web+%26+Móvil)](https://via.placeholder.com/800x400.png?text=Plataforma+AyudPet+Web+%26+Móvil)
+[![Logo de AyudPet](https://github.com/HectorLep/prueba-del-readme/raw/main/assets/logo.png)](https://github.com/HectorLep/prueba-del-readme/raw/main/assets/logo.png)
 > Una plataforma web y aplicación móvil para centralizar y agilizar el proceso de adopción de mascotas.
 
 ---

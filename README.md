@@ -42,9 +42,21 @@ El proyecto busca optimizar el proceso de adopción de mascotas, conectando de f
 ## 🛠️ Tecnologías Utilizadas
 
 * **Backend:** `Node.js` + `Express` + `TypeScript`
-* **Base de Datos:** `PostgreSQL` + `Prisma` (ORM)
+    * **Node.js:** Entorno para ejecutar JavaScript en el servidor.
+    * **Express:** Framework para construir la API del backend.
+    * **TypeScript:** Lenguaje con tipado estático para un código más robusto.
+
 * **Frontend Web:** `Vite` + `React` + `TypeScript`
-* **Aplicación Móvil:** `React Native` + `TypeScript`
+    * **React:** Librería para construir interfaces de usuario interactivas.
+    * **Vite:** Herramienta de desarrollo rápida para construir y servir el proyecto.
+    * **TypeScript:** Lenguaje con tipado estático para el desarrollo frontend.
+
+* **Base de Datos:** `Supabase`
+    * Plataforma que provee una base de datos relacional (PostgreSQL), autenticación y APIs auto-generadas.
+
+* **Aplicación Móvil:** `Expo` + `React Native`
+    * **React Native:** Framework para crear aplicaciones móviles nativas usando React.
+    * **Expo:** Plataforma y herramientas que simplifican el desarrollo y la compilación de apps en React Native.
 
 ---
 
@@ -56,8 +68,8 @@ Este proyecto utiliza una estructura de monorepo. Sigue estos pasos para ejecuta
 
 * Node.js v22 (LTS)
 * npm y Git
-* Una instancia de PostgreSQL
-* Entorno de desarrollo para React Native (JDK, Android Studio / Xcode)
+* Una cuenta de Supabase para obtener las claves de la API.
+* La aplicación **Expo Go** en tu teléfono móvil para probar la app.
 
 ### Instalación y Ejecución
 
@@ -72,8 +84,7 @@ Este proyecto utiliza una estructura de monorepo. Sigue estos pasos para ejecuta
     # En una terminal
     cd backend
     npm install
-    cp .env.example .env  # Configura tu base de datos aquí
-    npx prisma migrate dev
+    cp .env.example .env  # Configura tus claves de Supabase aquí
     npm run dev
     ````
 
@@ -90,7 +101,8 @@ Este proyecto utiliza una estructura de monorepo. Sigue estos pasos para ejecuta
     # En una tercera terminal
     cd mobile-app
     npm install
-    npx react-native run-android  # o run-ios
+    npx expo start
+    # Escanea el código QR con la app Expo Go en tu teléfono
     ````
 
 ---

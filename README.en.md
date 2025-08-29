@@ -4,7 +4,28 @@
   <a href="README.en.md">🇺🇸 English</a>
 </p>
 
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=tcurihual.AyunPet&left_color=black&right_color=blue&style=for-the-badge" alt="Visitas" />
+  <img src="https://img.shields.io/github/stars/tcurihual/AyunPet?style=for-the-badge&logo=github"
+       alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/forks/tcurihual/AyunPet?style=for-the-badge&logo=github"
+       alt="GitHub Forks" />
+  <img src="https://img.shields.io/github/issues/tcurihual/AyunPet?style=for-the-badge"
+       alt="GitHub Issues" />
+  <img src="https://img.shields.io/github/last-commit/tcurihual/AyunPet?style=for-the-badge"
+       alt="Último commit" />
+  <img src="https://img.shields.io/badge/Licencia-MIT-green?style=for-the-badge"
+       alt="Licencia" />
+</p>
+
 # 🐾 AyudPet 🐾
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-In_Development-orange?style=for-the-badge" alt="Project Status">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+</p>
 
 [![AyudPet Logo](https://github.com/HectorLep/prueba-del-readme/raw/main/assets/logo.png)](https://github.com/HectorLep/prueba-del-readme/raw/main/assets/logo.png)
 > A web platform and mobile application to centralize and streamline the pet adoption process.

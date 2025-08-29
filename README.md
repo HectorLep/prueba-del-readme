@@ -110,7 +110,7 @@ Asegúrate de tener instalado lo siguiente:
     pnpm install
     ````
 
-5.  **¡Inicia el proyecto!** Este único comando levantará todo el ambiente de desarrollo web (backend y frontend).
+5.  **Inicia el proyecto** Este único comando levantará todo el ambiente de desarrollo web (backend y frontend).
     ````bash
     pnpm run dev:web
     ````

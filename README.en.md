@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=tcurihual.AyunPet&left_color=black&right_color=blue&style=for-the-badge" alt="Visitas" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=tcurihual.AyunPet&left_color=black&right_color=blue&style=for-the-badge" alt="Visitors" />
   <img src="https://img.shields.io/github/stars/tcurihual/AyunPet?style=for-the-badge&logo=github"
        alt="GitHub Stars" />
   <img src="https://img.shields.io/github/forks/tcurihual/AyunPet?style=for-the-badge&logo=github"
@@ -13,9 +13,9 @@
   <img src="https://img.shields.io/github/issues/tcurihual/AyunPet?style=for-the-badge"
        alt="GitHub Issues" />
   <img src="https://img.shields.io/github/last-commit/tcurihual/AyunPet?style=for-the-badge"
-       alt="Último commit" />
-  <img src="https://img.shields.io/badge/Licencia-MIT-green?style=for-the-badge"
-       alt="Licencia" />
+       alt="Last commit" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"
+       alt="License" />
 </p>
 
 # 🐾 AyudPet 🐾
@@ -32,6 +32,19 @@
 
 ---
 
+## 📋 Table of Contents
+
+- [📝 Project Description](#-project-description)
+- [✨ Main Features](#-main-features)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [🚀 Getting Started (Quickstart Guide for Windows)](#-getting-started-quickstart-guide-for-windows)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [🆘 Support](#-support)
+- [📜 License](#-license)
+- [👤 Authors](#-authors)
+
+---
+
 ## 📝 Project Description
 
 **AyudPet** is a comprehensive solution that includes a web platform and a mobile application, developed for the `Integration Workshop II & IV` course at the `Universidad Católica de Temuco`.
@@ -42,21 +55,21 @@ The project aims to optimize the pet adoption process by efficiently connecting 
 
 ## ✨ Main Features
 
-* **🐶 Publication Management (For Foundations)**
-    * Publish and manage pet profiles with detailed information (photos, history, health).
-    * Update the adoption status in real-time ("available", "in process", "adopted").
+### 🏢 For Foundations and Rescuers
+**Centralized tools for efficient management.**
+- ✅ **Simple Publishing:** Create and manage pet profiles with all the necessary information.
+- ✅ **Real-Time Status Management:** Update if a pet is "available," "in process," or already "adopted."
 
-* **🔍 Search and Adoption (For Adopters)**
-    * Search and filter pets by species, size, age, and more, on both the web and the app.
-    * Apply for adoption through a simple and secure online form.
-    * Save pet profiles to a favorites list.
+### 🔍 For Future Adopters
+**Find your ideal companion safely and with all the information you need.**
+- ✅ **Advanced Search and Filters:** Filter by species, size, age, and more to find the perfect pet.
+- ✅ **Secure Application Process:** Submit adoption requests through a standardized form.
+- ✅ **Favorites List:** Save the profiles you are interested in so you don't lose track of them.
 
-* **💬 Interaction and Community**
-    * Resolve questions through a comment system on each publication.
-    * Access transparent profiles of organizations to build trust.
-
-* **🛡️ Administration and Moderation**
-    * A control panel for administrators to manage users and reported content, ensuring a safe environment.
+### 🛡️ For Administrators
+**A safe and well-moderated environment for everyone.**
+- ✅ **Control Panel:** Manage users and reported content.
+- ✅ **Content Moderation:** Ensure that all publications comply with community standards.
 
 ---
 
@@ -119,6 +132,24 @@ Ensure you have the following software installed:
     ````
 
 The terminal will show you the URL where the application is running.
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! This is a collaborative university project. If you want to help, please follow these steps:
+1.  Look for an open `issue` on the [Issues](https://github.com/tcurihual/AyunPet/issues) tab or propose a new enhancement.
+2.  For major changes, please open an `issue` first to discuss what you would like to change.
+3.  Ensure you follow the project's style guides and standards.
+
+---
+
+## 🆘 Support
+
+If you find a problem or have a suggestion, please use the official repository channels:
+
+- **🐛 Report a Bug:** Open a new `Issue` [here](https://github.com/tcurihual/AyunPet/issues/new). Please be as detailed as possible.
+- **💡 Suggest an Enhancement:** Start a `Discussion` [here](https://github.com/tcurihual/AyunPet/discussions) to propose new ideas or features.
+
 ---
 
 ## 📜 License

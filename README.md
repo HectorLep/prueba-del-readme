@@ -108,11 +108,11 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para má
 
 ## 👤 Autores
 
-* **Miguel Fernández**
+* **Miguel Fernández** - [@kurovoxx](https://github.com/kurovoxx)
 * **Héctor Lepio** - [@HectorLep](https://github.com/HectorLep)
-* **Agustin Verga**
-* **Christopher Solis**
-* **Maximiliano Sáez**
-* **Benjamin Rojas**
+* **Agustin Verga** - [@sonickiller39](https://github.com/sonickiller39)
+* **Christopher Solis** - [@Insert-name-115](https://github.com/Insert-name-115)
+* **Maximiliano Sáez** - [@Mxtsi7](https://github.com/Mxtsi7)
+* **Benjamin Rojas** - [@pvcdf](https://github.com/pvcdf)
 * **Diego Ortiz**
-* **Sebastian Mena**    
+* **Sebastian Mena**

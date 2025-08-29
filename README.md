@@ -60,51 +60,62 @@ El proyecto busca optimizar el proceso de adopción de mascotas, conectando de f
 
 ---
 
-## 🚀 Cómo Empezar
+## 🚀 Cómo Empezar (Entorno de Desarrollo en Windows)
 
-Este proyecto utiliza una estructura de monorepo. Sigue estos pasos para ejecutarlo localmente.
+Esta guía detalla los pasos para configurar y ejecutar el proyecto en un entorno de desarrollo de Windows.
 
 ### Prerrequisitos
 
-* Node.js v22 (LTS)
-* npm y Git
-* Una cuenta de Supabase para obtener las claves de la API.
-* La aplicación **Expo Go** en tu teléfono móvil para probar la app.
+Asegúrate de tener instalado lo siguiente:
+
+1.  **Git:** [Descargar e instalar desde git-scm.com](https://git-scm.com/downloads)
+2.  **Node.js (v22.18 LTS):** [Descargar el instalador .msi para Windows](https://nodejs.org/en/download).
+3.  **Nginx:**
+    * [Descargar Nginx v1.28.0](https://nginx.org/download/nginx-1.28.0.zip) y descomprimirlo en una ubicación fácil de recordar (ej: `C:\nginx`).
+4.  **pnpm:** Abre una terminal de **PowerShell como Administrador** y ejecuta el siguiente comando:
+    ```powershell
+    Invoke-WebRequest "[https://get.pnpm.io/install.ps1](https://get.pnpm.io/install.ps1)" -UseBasicParsing | Invoke-Expression
+    ```
 
 ### Instalación y Ejecución
 
-1.  **Clona el repositorio:**
+1.  **Clona el repositorio:** Abre una terminal (como Git Bash o PowerShell) en la carpeta donde quieras guardar el proyecto y ejecuta:
     ````bash
-    git clone [https://github.com/TU_USUARIO/ayudpet.git](https://github.com/TU_USUARIO/ayudpet.git)
-    cd ayudpet
+    git clone [https://github.com/tcurihual/AyunPet.git](https://github.com/tcurihual/AyunPet.git)
+    cd AyunPet
     ````
 
-2.  **Inicia el Backend:**
+2.  **Configura Nginx:** Este paso es crucial para que el backend y el frontend se comuniquen correctamente en tu entorno local.
+    * Navega a la carpeta donde descomprimiste Nginx (ej: `C:\nginx`).
+    * Entra en la carpeta `conf` y abre el archivo `nginx.conf` con un editor de texto.
+    * Borra todo el contenido de ese archivo y reemplázalo con el contenido del archivo `nginx.conf` que se encuentra en la raíz de este repositorio.
+    * Abre una terminal en la carpeta raíz de Nginx (ej: `C:\nginx`) y ejecuta los siguientes comandos para iniciar el servidor:
     ````bash
-    # En una terminal
-    cd backend
-    npm install
-    cp .env.example .env  # Configura tus claves de Supabase aquí
-    npm run dev
+    # Verifica que la configuración es correcta
+    nginx -t
+    
+    # Inicia Nginx (si ya estaba corriendo, recarga la configuración)
+    start nginx
+    nginx -s reload
+    ````
+    *Nota: `start nginx` solo necesita ejecutarse una vez. Para futuros cambios en la configuración, solo usa `nginx -s reload`.*
+
+3.  **Configura las Variables de Entorno:**
+    * En la raíz del proyecto, busca el archivo `.env.example`.
+    * Crea una copia de este archivo y renómbrala a `.env`.
+    * Rellena las variables necesarias (como las claves de Supabase) dentro del nuevo archivo `.env`.
+
+4.  **Instala todas las dependencias:** `pnpm` leerá el `package.json` principal e instalará todo lo necesario para el backend y el frontend.
+    ````bash
+    pnpm install
     ````
 
-3.  **Inicia el Frontend Web:**
+5.  **¡Inicia el proyecto!** Este único comando levantará todo el ambiente de desarrollo web (backend y frontend).
     ````bash
-    # En una segunda terminal
-    cd frontend-web
-    npm install
-    npm run dev
+    pnpm run dev:web
     ````
 
-4.  **Inicia la Aplicación Móvil:**
-    ````bash
-    # En una tercera terminal
-    cd mobile-app
-    npm install
-    npx expo start
-    # Escanea el código QR con la app Expo Go en tu teléfono
-    ````
-
+Después de unos momentos, la terminal te indicará las direcciones (ej: `localhost:5173`) donde la aplicación web estará corriendo.
 ---
 
 ## 📜 Licencia
